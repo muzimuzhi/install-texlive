@@ -13,7 +13,7 @@ jobs:
       matrix:
         os:
           - ubuntu-latest
-          - macos-latest
+          - macos-13
     name: "1st: ${{ matrix.os }}"
     runs-on: "${{ matrix.os }}"
     steps:
@@ -33,7 +33,7 @@ jobs:
       matrix:
         os:
           - ubuntu-latest
-          - macos-latest
+          - macos-13
     name: "2nd: ${{ matrix.os }}"
     runs-on: "${{ matrix.os }}"
     steps:
